@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=DM+Sans:opsz@9..40&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    
+    height: 100vh;
+    background: white;
+    display: flex;
+    font-family: "DM Sans", sans-serif;
+}
+.img{
+    width: 50%;
+}
+.P_one{
+    display: flex;
+}
+.ensemble div {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+#valeur{
+
+
+
+
+}
+.P_one input{
+    outline: none;
+    padding-right: 40px;
+     border-radius: 12px; ;
+    height: 15px;
+    border: 2px solid black;
+    padding: 15px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100vh;
+    padding: 30px;
+    width: 420px;
+
+}
+.P_one div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.date{
+    width: 70px;
+}
+input{
+    margin-bottom: 20px;
+    outline: none;
+    padding-right: 40px;
+     border-radius: 12px; ;
+    height: 15px;
+    border: 2px solid black;
+    padding: 15px;
+}
+.BTN{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 255);
+    color: white;
+    border-radius: 12px;
+    height: 50px;
+    transition: 0.5
+
+
+}
+
+.BTN :hover{
+    background: darkblue;
+}
+
+a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
